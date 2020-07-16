@@ -1,0 +1,59 @@
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#container {
+  height: 90vh;
+  width: 95vw;
+  padding-left: 10%;
+  padding-top: 1%;
+  opacity: 100%;
+}
+
+#map {
+  width: 200px;
+  height: 80vh;
+  margin-left: 10px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+}
+
+#searchTags {
+  font-family: 'Lato', sans-serif;
+}
+
+#sidebar {
+  height: 80vh;
+  border: 2px solid grey;
+  padding-right: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#sidebar_content {
+  padding:1px;
+}
+
+h1 {
+  font-size: 10px;
+}
+
+#tagsBoxSubmit {
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;  
+}
+
+#directionsSubmit {
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;  
+}
+
+#search {
+  padding: 10px;
+  margin: 0 auto;
+}

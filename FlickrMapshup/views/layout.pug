@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        block head
+        block links
+    body 
+        #container
+            block search
+            .row.content
+                #sidebar.col-3(scrolltop='10')
+                    #userguide
+                        h4 How do I use it?
+                        <p> 1. Enter some keyword search parameters (and/or a Flickr username) and click Search.
+                        cont  If your browser has geolocation enabled, you can also toggle Search Near Me
+                        cont  which reduces the scope of the search to a 32km radius around your current location.
+                        <p> 2. Watch the markers populate the map, hover over a marker to view the image,
+                        cont  click the marker to bring it up in this sidebar and view more info.</p>
+                        p 3. From the sidebar, you can get more handy information about the image and even directions!
+                    #selected
+                #map.col-8
+                    #buttonOverlay
+                    block map
+            block footer
